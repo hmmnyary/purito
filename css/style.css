@@ -878,11 +878,14 @@ h2 {
 }
 
 .seoul {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     position: relative;
 }
 .seoul img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .seoul .title {
     position: absolute;
