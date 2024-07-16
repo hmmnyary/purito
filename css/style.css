@@ -905,7 +905,45 @@ h2 {
     margin-bottom: 3.6rem;
 }
 
+.seoul .title p {
+    font-size: 4rem;
+}
 
+.sns {}
+.sns .inner {}
+.sns .inner h3 {
+    font-size: 16rem;
+    font-family: var(--font-serif);
+    margin-bottom: 6rem;
+}
+
+.sns .inner .image_wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sns .image_wrap .image {
+    width: 25%;
+    height: 100%;
+    padding: 8px;
+    overflow: hidden;
+}
+.sns .image_wrap .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.sns .image_wrap .image:hover img {
+    transform: scale(105%);
+}
+.sns .image_wrap p {
+    width: 50%;
+    height: 100%;
+    font-size: 8rem;
+    font-family: var(--font-serif);
+}
 
 
 
