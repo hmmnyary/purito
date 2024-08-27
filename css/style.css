@@ -995,6 +995,58 @@ h2 {
 }
 
 
+/********** .top_btn **********/
+
+
+.top_btn {
+    display: block;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    width: 80px;
+    height: 80px;
+}
+.top_btn svg path {
+    fill: var(--color-green);
+}
+.top_btn .border {
+    position: relative;
+}
+.top_btn .border .arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: opacity1 4.5s infinite linear;
+}
+
+@keyframes opacity1 {
+    42%, 100% {
+        opacity: 0;
+    }
+    50%, 92% {
+        opacity: 1;
+    }
+}
+
+.top_btn .border .top_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: opacity2 4.5s infinite linear;
+}
+
+@keyframes opacity2 {
+    42%, 100% {
+        opacity: 1;
+    }
+    50%, 92% {
+        opacity: 0;
+    }
+}
+
+
 /********** .footer **********/
 
 
