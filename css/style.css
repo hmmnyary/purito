@@ -1005,6 +1005,7 @@ h2 {
     right: 60px;
     width: 80px;
     height: 80px;
+    z-index: 99;
 }
 .top_btn svg path {
     fill: var(--color-green);
